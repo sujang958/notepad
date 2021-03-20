@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <title>404 Page Not Found</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+        html, body {
+            width: 100%;
+            height: 100%;
+            background-color: #2C2F33;
+            color: #FFFFFF;
+            font-family: 'Noto Sans KR';
+        }
+
+        .h2 {
+            font-family: 'Gugi';
+        }
+
+        .container {
+            margin-top: 50px;
+            width: 80%;
+        }
+
+        #icon {
+            width: 300px;
+            height: 300px;
+        }
+
+        #back-btn {
+            background-color: #7289DA
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p class="h2">[404 Page Not Found]</p><br>
+        <p class="lead">요청하신 페이지를 찾을 수 없습니다</p>
+        <p class="lead">아마도 페이지를 잘못 들어오신것 같네요</p><br>
+        <button class="btn btn-primary" id="back-btn" onclick="history.back()">뒤로가기</button>
+    </div>
+    
+</body>
+</html>

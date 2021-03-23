@@ -115,7 +115,7 @@ app.post('/sign_up', async (req, res) => {
         code,
     });
     
-    mailer.send(mailer.createMailOption(email, '[NotePad] 이메일 인증', `http://localhost:3000/verify/${code}\n이 링크를 다른사람에게 보여주지마세요`));
+    mailer.send(mailer.createMailOption(email, '[NotePad] 이메일 인증', `http://sujang958.ga/verify/${code}\n이 링크를 다른사람에게 보여주지마세요`));
     res.send('<script>alert("이메일로 인증 메일을 보냈습니다, 확인해주세요");history.back();</script>');
 });
 

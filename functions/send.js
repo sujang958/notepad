@@ -12,7 +12,6 @@ class Mail {
             }
         });
 
-        nodemailer.createTestAccount()
         this.id = id;
         /**
          * @type {nodemailer.Transporter}

@@ -11,6 +11,8 @@ class Mail {
                 pass: password,
             }
         });
+
+        nodemailer.createTestAccount()
         this.id = id;
         /**
          * @type {nodemailer.Transporter}
